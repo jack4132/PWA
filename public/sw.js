@@ -52,7 +52,7 @@ self.addEventListener('activate', evt => {
   });
   
 
-// fetch 
+// fetch event
 self.addEventListener('fetch', evt => {
     //console.log('fetch event', evt);
   if(evt.request.url.indexOf('firestore.googleapis.com') === -1){
